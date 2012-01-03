@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "NSArray+Permutation.h"
+
 
 @implementation ViewController
 
@@ -22,6 +24,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+
+	NSArray * things = [NSArray arrayWithObjects:@"1", @"2", @"1", @"3", nil];
+	[things permutation:^(NSArray *permutedArray) {
+		NSLog(@"%@", permutedArray);
+	}];
 }
 
 - (void)viewDidUnload

@@ -15,6 +15,7 @@
 		C8963B6714B2E28C00F119FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8963B6614B2E28C00F119FD /* AppDelegate.m */; };
 		C8963B6A14B2E28C00F119FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8963B6914B2E28C00F119FD /* ViewController.m */; };
 		C8963B6D14B2E28C00F119FD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8963B6B14B2E28C00F119FD /* ViewController.xib */; };
+		C8963B7514B2E85F00F119FD /* NSArray+Permutation.m in Sources */ = {isa = PBXBuildFile; fileRef = C8963B7414B2E85F00F119FD /* NSArray+Permutation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		C8963B5614B2E28C00F119FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C8963B5814B2E28C00F119FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8963B5A14B2E28C00F119FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C8963B5E14B2E28C00F119FD /* permutation-Info.plist */ = {isa = PBXFileReference; path = "permutation-Info.plist"; sourceTree = "<group>"; };
+		C8963B5E14B2E28C00F119FD /* permutation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "permutation-Info.plist"; sourceTree = "<group>"; };
 		C8963B6014B2E28C00F119FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C8963B6214B2E28C00F119FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C8963B6414B2E28C00F119FD /* permutation-Prefix.pch */ = {isa = PBXFileReference; path = "permutation-Prefix.pch"; sourceTree = "<group>"; };
-		C8963B6514B2E28C00F119FD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8963B6414B2E28C00F119FD /* permutation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "permutation-Prefix.pch"; sourceTree = "<group>"; };
+		C8963B6514B2E28C00F119FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8963B6614B2E28C00F119FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C8963B6814B2E28C00F119FD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C8963B6814B2E28C00F119FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C8963B6914B2E28C00F119FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C8963B6C14B2E28C00F119FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C8963B7314B2E85F00F119FD /* NSArray+Permutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Permutation.h"; sourceTree = "<group>"; };
+		C8963B7414B2E85F00F119FD /* NSArray+Permutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Permutation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				C8963B6914B2E28C00F119FD /* ViewController.m */,
 				C8963B6B14B2E28C00F119FD /* ViewController.xib */,
 				C8963B5D14B2E28C00F119FD /* Supporting Files */,
+				C8963B7314B2E85F00F119FD /* NSArray+Permutation.h */,
+				C8963B7414B2E85F00F119FD /* NSArray+Permutation.m */,
 			);
 			path = permutation;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				C8963B6314B2E28C00F119FD /* main.m in Sources */,
 				C8963B6714B2E28C00F119FD /* AppDelegate.m in Sources */,
 				C8963B6A14B2E28C00F119FD /* ViewController.m in Sources */,
+				C8963B7514B2E85F00F119FD /* NSArray+Permutation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
